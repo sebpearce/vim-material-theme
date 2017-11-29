@@ -19,10 +19,10 @@ let s:gui03 = "5C7E8C"
 let s:gui04 = "80CBC4"
 let s:gui05 = "C792EA"
 let s:gui06 = "7986CB"
-let s:gui07 = "82B1FF"
+let s:gui07 = "89DDF3"
 let s:gui08 = "8BD649"
 let s:gui09 = "C3E88D"
-let s:gui0A = "CDD3DE"
+let s:gui0A = "FFCB6B"
 let s:gui0B = "EC5F67"
 let s:gui0C = "F1E655"
 let s:gui0D = "F77669"
@@ -304,7 +304,7 @@ call <sid>hi("rubyInterpolation",           s:gui0B, "", s:cterm0B, "", "")
 call <sid>hi("rubyInterpolationDelimiter",  s:gui0F, "", s:cterm0F, "", "")
 call <sid>hi("rubyRegexp",                  s:gui0C, "", s:cterm0C, "", "")
 call <sid>hi("rubySymbol",                  s:gui0B, "", s:cterm0B, "", "")
-call <sid>hi("rubyStringDelimiter",         s:gui0B, "", s:cterm0B, "", "")
+call <sid>hi("rubyStringDelimiter",         s:gui07, "", s:cterm0B, "", "")
 
 " SASS highlighting
 call <sid>hi("sassidChar",     s:gui08, "", s:cterm08, "", "")
